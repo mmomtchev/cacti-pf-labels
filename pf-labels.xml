@@ -21,6 +21,34 @@
 			<direction>input</direction>
 			<oid>.1.3.6.1.4.1.30155.1.10.128.1.2</oid>
 		</pfLabel>
+		<pfLabelEvals>
+			<name>Evals</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>input</direction>
+			<oid>.1.3.6.1.4.1.30155.1.10.128.1.3</oid>
+		</pfLabelEvals>
+		<pfLabelPkts>
+			<name>Total Packets</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>input</direction>
+			<oid>.1.3.6.1.4.1.30155.1.10.128.1.4</oid>
+		</pfLabelPkts>
+		<pfLabelBytes>
+			<name>Total Bytes</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>input</direction>
+			<oid>.1.3.6.1.4.1.30155.1.10.128.1.5</oid>
+		</pfLabelBytes>
+		<pfLabelInPkts>
+			<name>Packets In</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>input</direction>
+			<oid>.1.3.6.1.4.1.30155.1.10.128.1.6</oid>
+		</pfLabelInPkts>
 		<pfLabelInBytes>
 			<name>Bytes In</name>
 			<method>walk</method>
@@ -28,6 +56,13 @@
 			<direction>output</direction>
 			<oid>.1.3.6.1.4.1.30155.1.10.128.1.7</oid>
 		</pfLabelInBytes>
+		<pfLabelOutPkts>
+			<name>Packets Out</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>output</direction>
+			<oid>.1.3.6.1.4.1.30155.1.10.128.1.8</oid>
+		</pfLabelOutPkts>
 		<pfLabelOutBytes>
 			<name>Bytes Out</name>
 			<method>walk</method>
@@ -35,5 +70,12 @@
 			<direction>output</direction>
 			<oid>.1.3.6.1.4.1.30155.1.10.128.1.9</oid>
 		</pfLabelOutBytes>
+		<pfLabelTotalStates>
+			<name>Total States</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>output</direction>
+			<oid>.1.3.6.1.4.1.30155.1.10.128.1.10</oid>
+		</pfLabelTotalStates>
 	</fields>
 </query>
